@@ -7,4 +7,10 @@
     android:orientation="vertical"
     tools:context=".Activity2">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/layer_list"
+        android:contentDescription="@string/todo" />
 </LinearLayout>
