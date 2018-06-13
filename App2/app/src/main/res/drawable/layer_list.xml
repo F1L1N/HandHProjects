@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="100dp" android:height="100dp">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp">
 
     <item
         android:id="@+id/someDrawableRed"
-        android:right="30dp"
-        android:bottom="30dp">
+        android:bottom="30dp"
+        android:right="30dp">
 
         <shape android:shape="rectangle">
-            <solid android:color = "#FF0000"/>
-            <size android:width="60dp" android:height="60dp"/>
+            <solid android:color="#FF0000" />
+            <size
+                android:width="60dp"
+                android:height="60dp" />
         </shape>
     </item>
     <item
@@ -19,8 +21,10 @@
         android:top="30dp">
 
         <shape android:shape="rectangle">
-            <solid android:color = "#00FF00"/>
-            <size android:width="60dp" android:height="60dp"/>
+            <solid android:color="#00FF00" />
+            <size
+                android:width="60dp"
+                android:height="60dp" />
         </shape>
     </item>
 </layer-list>

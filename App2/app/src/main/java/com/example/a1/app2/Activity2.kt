@@ -10,6 +10,5 @@ class Activity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_2)
         this.imageView.setImageResource(R.drawable.layer_list)
-        //this.button.background(R.drawable.button_selector)
     }
 }

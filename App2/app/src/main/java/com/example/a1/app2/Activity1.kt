@@ -61,5 +61,4 @@ class Activity1 : AppCompatActivity() {
                 resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE -> 'a'
                 else -> ' '
             }
-
 }
