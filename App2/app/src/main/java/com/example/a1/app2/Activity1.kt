@@ -62,12 +62,4 @@ class Activity1 : AppCompatActivity() {
                 else -> ' '
             }
 
-
-    private fun getCurrentLocaleStr(context: Context): String =
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                context.resources.configuration.locales.get(0).toString()
-            } else {
-                context.resources.configuration.locale.language
-            }
-
 }
