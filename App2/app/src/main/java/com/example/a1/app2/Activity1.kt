@@ -45,11 +45,7 @@ class Activity1 : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     private fun checkLang() {
-        if (getCurrentLocaleStr(this) == "ru") {
-            this.textView.text = resources.getString(R.string.poetry)
-        } else {
-            this.textView.text = resources.getString(R.string.no_poetry)
-        }
+        this.textView.text = resources.getString(R.string.poetry)
     }
 
     private fun checkVersion(): Unit =
@@ -58,7 +54,6 @@ class Activity1 : AppCompatActivity() {
             } else {
                 this.button.text = "Боль и страдание"
             }
-
 
     private fun getScreenOrientation(): Char =
             when {
