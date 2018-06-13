@@ -23,9 +23,6 @@
         android:layout_marginTop="6dp"
         android:scaleType="fitXY"
         tools:ignore="ContentDescription,HardcodedText,VectorDrawableCompat" />
-        <!--app:srcCompat="@drawable/ic_pushkin_signature"
-        android:src="@drawable/ic_cross_black"
-        -->
 
     <Button
         android:id="@+id/button"
