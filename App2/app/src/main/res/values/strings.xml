@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Второй урок</string>
+    <string name="main_button1">Стихи</string>
+    <string name="main_button2">Отрисовка</string>
+    <string name="poetry" translatable="true">
+         Товарищ, верь: взойдет она,\n
+         Звезда пленительного счастья, \n
+         Россия вспрянет ото сна, \n
+         И на обломках самовластья \n
+         Напишут наши имена! \n
+    </string>
+    <string name="no_poetry">Sorry, there is nothing</string>
+    <string name="bt_text_default">Кнопка</string>
+</resources>
