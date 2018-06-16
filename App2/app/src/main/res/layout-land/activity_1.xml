@@ -20,8 +20,9 @@
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/ic_cross_black"
+        android:layout_marginTop="6dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_pushkin_signature"
         tools:ignore="ContentDescription,HardcodedText,VectorDrawableCompat" />
 
     <Button
